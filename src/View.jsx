@@ -24,7 +24,7 @@ debugger
           'Content-Type': 'application/json', // Adjust content type if needed
           // Add any other headers you need
       };
-      let Api = 'http://localhost:5000/addDetails';
+      let Api = 'https://dataneuron-d69n.onrender.com/addDetails';
   
 
       trackPromise(axios.get(Api)).then((resp) => {

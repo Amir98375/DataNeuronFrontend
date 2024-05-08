@@ -96,7 +96,7 @@ const Component1 = React.memo((props) => {
           'Content-Type': 'application/json', // Adjust content type if needed
           // Add any other headers you need
       };
-      let Api = 'http://localhost:5000/addDetails';
+      let Api = 'https://dataneuron-d69n.onrender.com/addDetails';
   
       // Send the request
       trackPromise(axios.post(Api, obj, { headers: headers })).then((resp) => {

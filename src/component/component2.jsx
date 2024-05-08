@@ -9,7 +9,7 @@ import Swal from 'sweetalert2'
   const Delete=(e,rowData)=>{
     debugger
     let id=rowData._id
-    let url='http://localhost:5000/addDetails'
+    let url='https://dataneuron-d69n.onrender.com/addDetails'
     trackPromise(axios.delete(`${url}/${id}`)).then((resp)=>{
       console.log(resp,'response delete')
       Swal.fire({
