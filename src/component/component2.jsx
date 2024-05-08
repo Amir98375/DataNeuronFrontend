@@ -14,7 +14,7 @@ import Swal from 'sweetalert2'
       console.log(resp,'response delete')
       Swal.fire({
         title: "Done",
-        text: "Data uploaded successfully",
+        text: "Record Deleted successfully",
         icon: "success",
     }).then((el)=>{
       if(el.isConfirmed){
