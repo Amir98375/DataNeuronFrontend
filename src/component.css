@@ -1,0 +1,95 @@
+.container {
+  display: flex;
+}
+
+.component {
+  margin: 1rem;
+  border: 1px solid #ccc;
+  height: 50%;
+  width: 49%;
+  /* flex-grow: 2; */
+  min-height: 200px;
+  overflow-x: scroll;
+  overflow: auto; 
+
+  resize: both;
+}
+
+.component3 {
+  margin: 1rem;
+  border: 1px solid #ccc;
+  height: 50%;
+  width: 98%;
+  min-height: 200px;
+  overflow: auto; 
+  resize: both; 
+}
+.compContainer3{
+  display: flex;
+  justify-content: space-evenly;
+}
+ .childcon1{
+  display: flex;
+  width: 40%;
+  background-color: antiquewhite;
+  align-items: center;
+
+}
+.childcon1 img{
+  margin: auto;
+  width:80%;
+  height: 80%;
+  border-radius: 0 20% 0 20%;
+  border: 2px solid black;
+  
+  
+}
+.childcon2{
+  width: 50%;
+  align-content: center;
+}
+.childcon2 h2{
+text-align: center;
+}
+
+
+.component-after-click {
+  border: 1px solid #ccc;
+  height: auto;
+  width: auto;
+  overflow: auto; 
+  resize: both;
+}
+
+
+
+/* Always in ENd */
+
+@media (max-width: 599px) {
+  
+    .component3 {
+        margin: 1rem;
+        border: 1px solid #ccc;
+        height: 50%;
+        width: auto;
+        min-height: 300px;
+        overflow: auto; 
+        resize: both;
+      }
+  }
+  
+  
+  @media (min-width: 600px) and (max-width: 959px) {
+  
+  }
+  
+  
+  @media (min-width: 960px) and (max-width: 1279px) {
+ 
+  }
+  
+  
+  @media (min-width: 1280px) {
+   
+  }
+  
